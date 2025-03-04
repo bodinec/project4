@@ -1,5 +1,6 @@
 body{
-    background-color: #DA8181;
+    background-color: white;
+    padding: 30px;
 }
 
 .nav{
@@ -7,24 +8,40 @@ body{
     flex-direction: row;
     justify-content: space-around;
     background-color: #9D3434;
+    border-radius: 15px;
     font-family: Atma;
     list-style-type: none;
 }
 
-p, h1{
+.story, h1{
     text-align: left;
-    max-width: 30em;
     line-height: 1.5em;
     font-family: Atma;
 }
 
-img{
-    border: 10px, solid, #9D3434;
+.story{
+    background-color: #DA8181;
+    padding: 10px;
     border-radius: 15px;
 }
 
+
+img{
+    border: 10px, solid, #9D3434;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 footer{
+    color: white;
+    font-family: Atma;
     text-align: center;
+    background-color: #9D3434;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 a:link { color:  #ffffff; }  
