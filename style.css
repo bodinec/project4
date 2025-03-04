@@ -1,0 +1,31 @@
+body{
+    background-color: #DA8181;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #9D3434;
+    font-family: Atma;
+    list-style-type: none;
+}
+
+p, h1{
+    text-align: left;
+    max-width: 30em;
+    line-height: 1.5em;
+    font-family: Atma;
+}
+
+img{
+    border: 10px, solid, #9D3434;
+    border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+}
+
+a:link { color:  #ffffff; }  
+a:visited { color: #ffffff; }  
